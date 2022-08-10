@@ -18,12 +18,12 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  D  |  F  |  K  |   |  J  |  U   |  R  |  L  |  ;  | BKSP |
 // | CTRL |  A  |  S  |  E  |  T  |  G  |   |  Y  |  N   |  I  |  O  |  H  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  P  |  M   |  ,  |  .  |  /  | ESC  |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  P  |  M   |  ,  |  .  |  /  | Shift ENT  |
 //                    | GUI | LWR | ENT |   | SPC | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp D &kp F &kp K   &kp J &kp U  &kp R     &kp L   &kp SEMI &kp BSPC
    &kp LCTRL &kp A &kp S &kp E &kp T &kp G   &kp Y &kp N  &kp I     &kp O   &kp H    &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp P &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
+   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp P &kp M  &kp COMMA &kp DOT &kp FSLH &ht_tp RSHIFT RET
                   &kp LGUI &mo 1 &kp RET     &kp SPACE &mo 2 &kp RALT
                         >;
                 };
